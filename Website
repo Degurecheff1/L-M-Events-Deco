@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L&M Deco Events</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcfbf7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #f0e6d2;
+            margin-bottom: 30px;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            font-size: 2rem;
+            color: #d4af37; /* Elegant Gold */
+            margin-bottom: 15px;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        /* ATTENTION-GRABBING DOWNLOAD BUTTON */
+        .download-box {
+            background-color: #fff;
+            padding: 40px 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+            border: 2px dashed #d4af37;
+        }
+
+        .download-box h3 {
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+            color: #222;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37 0%, #aa820a 100%);
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            
+            /* Attention-grabbing pulse animation */
+            animation: pulse 2s infinite;
+        }
+
+        .btn-download:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.6);
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(212, 175, 55, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+            }
+        }
+
+        /* Contact & Advertisement Section */
+        .contact-section {
+            background-color: #f4f1ea;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .contact-section h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        .contact-links a {
+            color: #aa820a;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #888;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Header -->
+    <header class="hero">
+        <h1>L&M Deco Events</h1>
+        <p>Turning Your Dream Events Into Beautiful Realities</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Short About Section -->
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to L&M Deco Events. We specialize in premium event decoration, floral arrangements, and luxury setups tailored specifically to your milestones. From elegant weddings to high-profile corporate functions, we bring the magic to your venue.</p>
+        </section>
+
+        <!-- Dynamic Download Section -->
+        <section class="download-box">
+            <h3>Get Our Latest Event Program</h3>
+            <p style="margin-bottom: 20px; color: #666;">Click below to download the PDF program directly to your phone or desktop.</p>
+            
+            <!-- The highly visible download button -->
+            <a href="event-program.pdf" download="L&M_Event_Program.pdf" class="btn-download">
+                📥 Download Program PDF
+            </a>
+        </section>
+
+        <!-- Ad Numbers & Links -->
+        <section class="contact-section">
+            <h3>Contact & Bookings</h3>
+            <div class="contact-links">
+                <p>📞 Phone/WhatsApp: <strong>+27 62 842 4115</strong></p>
+                <p>🌐 Facebook: <a href="https://www.tiktok.com/@lucky.co.za?_r=1&_t=ZS-97IGVEnwFdc" target="_blank">L&M Deco Events</a></p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 L&M Deco Events. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
